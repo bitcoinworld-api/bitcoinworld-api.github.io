@@ -13,5 +13,5 @@ if [ $LOCAL = $REMOTE ]; then
     echo "Not update, finish"
 else
     echo "Need update, run deploy.sh"
-    nohup ./deploy.sh >> ../api-log-bitcoinworld.log 2>&1 &
+    ./deploy.sh
 fi

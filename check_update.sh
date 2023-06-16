@@ -12,5 +12,5 @@ REMOTE=$(git log refs/remotes/origin/$BRANCH -n 1 --pretty=format:"%H")
 if [ $LOCAL = $REMOTE ]; then
     echo "Not update, finish"
 else
-    ./deploy.sh &
+    nohup ./deploy.sh >> api-log-bitcoinworld.log 2>&1 &
 fi

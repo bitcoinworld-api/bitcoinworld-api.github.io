@@ -12,5 +12,5 @@ if [ $LOCAL = $REMOTE ]; then
     echo "Not update, finish"
 else
     echo "Need update, run deploy.sh"
-    ./deploy.sh
+    ./deploy.sh && echo "ok"
 fi

@@ -1,4 +1,4 @@
-# Huobi API Documentation Project
+# Hb API Documentation Project
 
 ## Introduction
 

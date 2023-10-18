@@ -1,6 +1,7 @@
 #!/bin/sh
-set -e
-set -x
+# 打印错误
+# set -e  
+# set -x
 BRANCH=v1_cn
 
 LOCAL=$(git log $BRANCH -n 1 --pretty=format:"%H")
